@@ -56,14 +56,20 @@ public class MovementController : MonoBehaviour
             speed = runSpeed;
         }
         else
-            
-           
-           if(Input.GetKey(KeyCode.W))
         {
-            animator.SetBool("IsWalking", true);
-            animator.SetBool("IsRunning", false);
-            animator.SetBool("IsIdle", false);
+            if(Input.GetKey(KeyCode.W))
+            {
+                animator.SetBool("IsWalking", true);
+                animator.SetBool("IsRunning", false);
+                animator.SetBool("IsIdle", false);
+            }
+            else
+            {
+                animator.SetBool("IsWalking", false);
+                animator.SetBool("IsRunning", false);
+                animator.SetBool("IsIdle", true);
+            }
+            speed = walkSpeed;
         }
-        speed = walkSpeed;
     }
 }
