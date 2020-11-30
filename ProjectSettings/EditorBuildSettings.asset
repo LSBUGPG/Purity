@@ -5,7 +5,46 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 5002c4b1aea496b4e9a4f8c010aad6aa
   - enabled: 1
     path: Assets/Scenes/First Level.unity
-    guid: cbfe36cfddfde964d9dfce63a355d5dd
+    guid: 9a38317265b25f94e8543568d9211256
+  - enabled: 1
+    path: Assets/Scenes/FirstTemple.unity
+    guid: 9e29efd6413d88049bc381e0c724e9fd
+  - enabled: 1
+    path: Assets/Scenes/SecondTemple.unity
+    guid: 6738071f8e79e014ea639d1d22bf26b0
+  - enabled: 1
+    path: Assets/Scenes/ThirdTemple.unity
+    guid: 4398de26bac05e5438ba834612d5393f
+  - enabled: 1
+    path: Assets/Scenes/BattleScene.unity
+    guid: 278130123f83ca14bbc83978696f49a7
+  - enabled: 1
+    path: Assets/Scenes/levelComplete.unity
+    guid: 7fe48e322edfb054d9ea3cbdee25f091
+  - enabled: 1
+    path: Assets/Scenes/levelFailed.unity
+    guid: ea42a836b0e4a5146a6e58dc9eaa3446
+  - enabled: 1
+    path: Assets/Scenes/Levelfailedtemple.unity
+    guid: 2b84714822b6249478ef21b1d0ba778f
+  - enabled: 1
+    path: Assets/Scenes/TempleComplete1.unity
+    guid: 2426407fa9d55e34ea28b2b6c260c964
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: da0b36ae1b4796146ba245c09e9d977a
+  - enabled: 1
+    path: Assets/Scenes/Temple1.unity
+    guid: c523fe7d233059b4e8f2dfc010d9fc35
+  - enabled: 1
+    path: Assets/Scenes/Temple2.unity
+    guid: a8e7a2cf5cdde6d46bde6dc29a414c5c
   m_configObjects: {}
