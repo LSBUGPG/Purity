@@ -31,13 +31,16 @@ public class MovementController : MonoBehaviour
     {
         float z = Input.GetAxis("Vertical") * speed;
         float y = Input.GetAxis("Horizontal") * rotationSpeed;
-        transform.Translate(0, 0, z);
-        transform.Rotate(0, y, 0);
+        //transform.Translate(0, 0, z);
+        //transform.Rotate(0, y, 0);
 
         yaw += rotationSpeed * y;//Input.GetAxis("Mouse X");
         pitch -= rotationSpeed * Input.GetAxis("Mouse Y");
-        transform.eulerAngles = new Vector3(0, yaw, 0);
+        //transform.eulerAngles = new Vector3(0, yaw, 0);
         tCameraTransform.eulerAngles = new Vector3(pitch, 0);
+
+        rigidbody.AddForce(transform.forward * z - rigidbody.velocity, ForceMode.VelocityChange);
+        rigidbody.AddTorque(transform.up * y - rigidbody.angularVelocity, ForceMode.VelocityChange);
 
         if (Input.GetKey(KeyCode.LeftShift))
 
