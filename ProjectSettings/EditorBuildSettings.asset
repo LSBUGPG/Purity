@@ -47,4 +47,30 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Temple2.unity
     guid: a8e7a2cf5cdde6d46bde6dc29a414c5c
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/QuestBegins.unity
+    guid: 42c0685cc93400242afe233aafec4203
+  - enabled: 1
+    path: Assets/Scenes/levelFailed2.unity
+    guid: 428039e56ad852345a3b46982979175c
+  - enabled: 1
+    path: Assets/Scenes/levelFailed3.unity
+    guid: 0c9857df58e2a284f8d526d938ed37e1
+  - enabled: 1
+    path: Assets/Scenes/BossLevelFailed.unity
+    guid: 9ec8a1e5057009541bfc12a886bec347
+  - enabled: 1
+    path: Assets/Scenes/bosswin.unity
+    guid: f22605593feeb3f4da98020b269ea016
+  - enabled: 1
+    path: Assets/Scenes/QuestFailed.unity
+    guid: 9171408e06033a44098b057574f1e35c
+  - enabled: 1
+    path: Assets/Scenes/QuestWin.unity
+    guid: 9d7f6bafe825e8641ba0985213f3525a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 438ec24a20cac9f46bb926c6171848ce,
+      type: 2}

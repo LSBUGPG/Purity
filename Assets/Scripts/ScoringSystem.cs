@@ -13,7 +13,7 @@ public class ScoringSystem : MonoBehaviour
     {
         
         
-        scoreText.GetComponent<Text>().text = "Crystals : " + theScore;
+        scoreText.GetComponent<Text>().text = "Coins : " + theScore;
         
     }
 }
